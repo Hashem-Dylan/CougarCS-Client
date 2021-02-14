@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
     "@stripe/react-stripe-js": "^1.1.2",
     "axios": "^0.21.1",
     "@stripe/stripe-js": "^1.11.0",
@@ -26,6 +27,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.4",
     "recaptcha-v3": "^1.8.0",
+    "styled-components": "^5.2.1",
     "tabletop": "^1.5.2",
     "typed.js": "^2.0.11"
   },

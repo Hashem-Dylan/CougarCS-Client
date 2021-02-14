@@ -1,0 +1,39 @@
+.tutors {
+  background-color: #f5efef;
+  border-radius: 7px;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.tutors .tutorName {
+  display: flex;
+  padding: 0.5em;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 0.7em;
+}
+
+.tutorName p {
+  margin-left: 1.5em;
+  margin-bottom: 0;
+  color: rgb(51, 51, 51);
+}
+
+.tutors .tutorCourse {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 0fr));
+  column-gap: 1.5em;
+  row-gap: 1em;
+  justify-content: left;
+}
+
+.cardSubjects {
+  background-color: #ddd1d1;
+  padding: 0.5em;
+  border-radius: 30px;
+  color: rgb(25, 11, 11);
+  text-align: center;
+  width: 105px;
+}

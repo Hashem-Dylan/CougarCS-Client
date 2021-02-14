@@ -8,6 +8,7 @@ import ContactUs from './pages/ContactUs/ContactUs';
 import Events from './pages/Events/Events';
 import Home from './pages/Home/Home';
 import Membership from './pages/Membership/Membership';
+import Tutoring from './pages/Tutoring/Tutoring';
 import NotFound from './pages/NotFound/NotFound';
 import UserRegister from './components/UserRegister/UserRegister';
 import Hackathon from './pages/Hackathon/Hackathon';
@@ -30,6 +31,7 @@ const App = () => {
 				<Route path='/' exact={true} component={Home} />
 				<Route path='/about/' component={About} />
 				<Route path='/membership/' component={Membership} />
+				<Route path='/tutoring/' component={Tutoring} />
 				<Route path='/calendar/' component={Events} />
 				<Route path='/contactus/' component={ContactUs} />
 				<Route path='/register/' component={UserRegister} />

@@ -88,6 +88,14 @@ input {
 	margin-left: calc((100vw - 1400px - 30px)/2);
 }
 
+
+/** Container Styles **/
+.container-left {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: calc((100vw - 1400px - 30px)/2);
+}
+
 @media (max-width: 1430px) {
 	.container-left {
 		margin-left: 0;
